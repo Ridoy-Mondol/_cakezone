@@ -20,11 +20,6 @@ const Employee = (props) => {
                  </div>
 
                  <div className={`empicon-flex ${show===val.id ? "show" : "hide"}`}>
-                 <div className='logo-outer empicon-outer'>
-                 <div className='logo-inner empicon-inner'>
-                 <i class="fab fa-twitter"></i>
-                 </div>
-                 </div>
 
                  <Link to="https://web.facebook.com/profile.php?id=100015131225530" className='logo-outer empicon-outer text-decoration-none'>
                  <div className='logo-inner empicon-inner'>
@@ -37,7 +32,13 @@ const Employee = (props) => {
                  <i class="fab fa-linkedin-in"></i>
                  </div>
                  </Link>
-                 
+
+                 <div className='logo-outer empicon-outer'>
+                 <div className='logo-inner empicon-inner'>
+                 <i class="fab fa-twitter"></i>
+                 </div>
+                 </div>
+
                  </div>
 
                  <div className='logo-outer emp-outer'>

@@ -16,16 +16,16 @@ const Navbar2 = () => {
     
   return (
     <nav className={`${showNavLink ? (`${show ? "show-navbar-2 expan" : "show-navbar-2"}`) : 'hide-bar navbar-2'}`} onClick={hideDropdownPages}>
-      <NavLink activeClassName="active" className="nav-link" exact to="/cakezone/">
+      <NavLink activeClassName="active" className="nav-link" exact to="/_cakezone/">
         HOME
       </NavLink>
-      <NavLink activeClassName="active" className="nav-link" exact to="/cakezone/about">
+      <NavLink activeClassName="active" className="nav-link" exact to="/_cakezone/about">
         ABOUT US
       </NavLink>
-      <NavLink activeClassName="active" className="nav-link" exact to="/cakezone/menu">
+      <NavLink activeClassName="active" className="nav-link" exact to="/_cakezone/menu">
         MENU & PRICING
       </NavLink>
-      <NavLink activeClassName="active" className="nav-link" exact to="/cakezone/chefs">
+      <NavLink activeClassName="active" className="nav-link" exact to="/_cakezone/chefs">
         MASTER CHEFS
       </NavLink>
       <span onClick={showDropdownPages}>
@@ -34,15 +34,15 @@ const Navbar2 = () => {
       <i class="fas fa-caret-down ms-2"></i>
       </span>
       <span className={show ? 'dropdown-pages' : "hide"}>
-           <NavLink activeClassName="active" className="dropdown-link" exact to="/cakezone/service">
+           <NavLink activeClassName="active" className="dropdown-link" exact to="/_cakezone/service">
            SERVICES
            </NavLink>
-           <NavLink activeClassName="active" className="dropdown-link" exact to="/cakezone/testimonial">
+           <NavLink activeClassName="active" className="dropdown-link" exact to="/_cakezone/testimonial">
            TESTIMONIAL
            </NavLink>
       </span>
       </span>
-      <NavLink activeClassName="active" className={`nav-link margin-mobile`} exact to="/cakezone/contact">
+      <NavLink activeClassName="active" className={`nav-link margin-mobile`} exact to="/_cakezone/contact">
         CONTACT US
       </NavLink>
     </nav>

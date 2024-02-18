@@ -30,7 +30,7 @@ const Chefs = ({common}) => {
 
   return (
     <>
-     {common === "common" && <Commonheading heading = "MASTER CHEFS" link = "MASTER CHEFS" url = "/chefs"/>}
+     {common === "common" && <Commonheading heading = "MASTER CHEFS" link = "MASTER CHEFS" url = "/_cakezone/chefs"/>}
 
     <div className='chefs-div'>
         <h3 className='crispy text-center'>Team Members</h3>

@@ -71,37 +71,37 @@ const Footer = () => {
             <div className="margin-list">
             <li className="footer-list overflow-y-hidden">
             <i class="fa-solid fa-arrow-right"></i>
-            <NavLink exact activeClassName="active-page" className="foot-link" aria-current="page" to="/cakezone/">
+            <NavLink exact activeClassName="active-page" className="foot-link" aria-current="page" to="/_cakezone/">
             Home
             </NavLink>
             </li>
             <li className="footer-list">
             <i class="fa-solid fa-arrow-right"></i>
-            <NavLink exact activeClassName="active-page" className="foot-link" aria-current="page" to="/cakezone/about">
+            <NavLink exact activeClassName="active-page" className="foot-link" aria-current="page" to="/_cakezone/about">
             About Us
             </NavLink>
             </li>
             <li className="footer-list">
             <i class="fa-solid fa-arrow-right"></i>
-            <NavLink exact activeClassName="active-page" className="foot-link" aria-current="page" to="/cakezone/service">
+            <NavLink exact activeClassName="active-page" className="foot-link" aria-current="page" to="/_cakezone/service">
             Our Services
             </NavLink>
             </li>
             <li className="footer-list">
             <i class="fa-solid fa-arrow-right"></i>
-            <NavLink exact activeClassName="active-page" className="foot-link" aria-current="page" to="/cakezone/chefs">
+            <NavLink exact activeClassName="active-page" className="foot-link" aria-current="page" to="/_cakezone/chefs">
             Meet The Team
             </NavLink>
             </li>
             <li className="footer-list">
             <i class="fa-solid fa-arrow-right"></i>
-            <NavLink exact activeClassName="active-page" className="foot-link" aria-current="page" to="/cakezone/menu">
+            <NavLink exact activeClassName="active-page" className="foot-link" aria-current="page" to="/_cakezone/menu">
             Menu & Pricing
             </NavLink>
             </li>
             <li className="footer-list">
             <i class="fa-solid fa-arrow-right"></i>
-            <NavLink exact activeClassName="active-page" className="foot-link" aria-current="page" to="/cakezone/contact">
+            <NavLink exact activeClassName="active-page" className="foot-link" aria-current="page" to="/_cakezone/contact">
             Contact Us
             </NavLink>
             </li>

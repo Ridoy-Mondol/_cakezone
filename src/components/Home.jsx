@@ -17,7 +17,7 @@ const Home = ({specialpackPosition}) => {
          <h3 className='crispy'>Super Crispy</h3>
          <h1 className='home-head'>CAKEZONE</h1>
          <h3 className='best-cake'>THE BEST CAKE IN TOWN</h3>
-         <NavLink to="/cakezone/about" className="text-decoration-none">
+         <NavLink to="/_cakezone/about" className="text-decoration-none">
          <div className='btn-outer'>
          <button className='btn-inner'>Read More</button>
          </div>

@@ -5,7 +5,7 @@ import Commonheading from './Commonheading'
 const Service = ({common}) => {
   return (
     <>
-     {common === "common" && <Commonheading heading = "SERVICES" link = "SERVICES" url = "/service"/>}
+     {common === "common" && <Commonheading heading = "SERVICES" link = "SERVICES" url = "/_cakezone/service"/>}
 
     <div className='service-div'>
       
@@ -14,8 +14,8 @@ const Service = ({common}) => {
 
       <div className='card-flex'>
 
-      <div className='logo-outer card-outer'>
-       <div className='logo-inner card-inner'>
+      <div className='logo-outer card-outer service-card-outer'>
+       <div className='logo-inner card-inner service-card-inner'>
        <h5 className='text-heading'>BIRTHDAY CAKE</h5>
             <span className='about-para card-para'>
             Sweeten your celebrations with our irresistible birthday cakes, specially made to add joy to your special day
@@ -27,8 +27,8 @@ const Service = ({common}) => {
        </div>
        </div>
 
-       <div className='logo-outer card-outer'>
-       <div className='logo-inner card-inner'>
+       <div className='logo-outer card-outer service-card-outer'>
+       <div className='logo-inner card-inner service-card-inner'>
        <h5 className='text-heading'>WEDDING CAKE</h5>
             <span className='about-para card-para'>
             Elevate your wedding with our exquisite, personalized cakes, handcrafted to make your day unforgettable
@@ -40,8 +40,8 @@ const Service = ({common}) => {
        </div>
        </div>
 
-       <div className='logo-outer card-outer'>
-       <div className='logo-inner card-inner'>
+       <div className='logo-outer card-outer service-card-outer'>
+       <div className='logo-inner card-inner service-card-inner'>
        <h5 className='text-heading'>CUSTOM CAKE</h5>
             <span className='about-para card-para'>
             Add a personal touch to any occasion with our unique custom cakes, designed to reflect your style and taste

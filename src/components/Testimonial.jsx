@@ -79,7 +79,7 @@ const Testimonial = (props) => {
 
   return (
     <>
-     {props.common === "common" && <Commonheading heading = "TESTIMONIAL" link = "TESTIMONIAL" url = "/testimonial"/>}
+     {props.common === "common" && <Commonheading heading = "TESTIMONIAL" link = "TESTIMONIAL" url = "/_cakezone/testimonial"/>}
 
     <div className='testimoni-div'>
       <h3 className='crispy text-center'>Testimonial</h3>
@@ -98,7 +98,8 @@ const Testimonial = (props) => {
       // customDot={<CustomDot />}
       responsive={responsive}
       infinite={true}
-      autoPlay={props.deviceType !== "mobile" ? true : false}
+      // autoPlay={props.deviceType !== "mobile" ? true : false}
+      autoPlay={true}
       autoPlaySpeed={5000}
       keyBoardControl={true}
       // customTransition="all 0.5"

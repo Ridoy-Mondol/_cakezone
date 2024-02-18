@@ -5,7 +5,7 @@ import Aboutfooter from './Aboutfooter'
 const About = ({common}) => {
   return (
     <div className='position-relative'>
-    {common==="common" && <Commonheading heading = "ABOUT US" link = "ABOUT" url = "/about"/>}
+    {common==="common" && <Commonheading heading = "ABOUT US" link = "ABOUT" url = "/_cakezone/about"/>}
     <div className='about-div'>
       <h3 className='crispy text-center'>About Us</h3>
       <h1 className='home-head text-center about-head'>WELCOME TO CAKEZONE</h1>

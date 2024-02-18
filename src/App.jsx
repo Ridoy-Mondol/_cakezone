@@ -18,18 +18,18 @@ function App() {
       <Navbar1 />
       <Navbar2 />
       <Routes> 
-        <Route exact path='/cakezone/' element = {<Home specialpackPosition="afterChefs" />} />
-        <Route exact path='/cakezone/about' element = {<About
+        <Route exact path='/_cakezone/' element = {<Home specialpackPosition="afterChefs" />} />
+        <Route exact path='/_cakezone/about' element = {<About
         common="common" />} />
-        <Route exact path='/cakezone/menu' element = {<Menu specialpackPosition="afterMenu"
+        <Route exact path='/_cakezone/menu' element = {<Menu specialpackPosition="afterMenu"
         common="common" />} />
-        <Route exact path='/cakezone/service' element = {<Service
+        <Route exact path='/_cakezone/service' element = {<Service
         common="common" />} />
-        <Route exact path='/cakezone/chefs' element = {<Chefs
+        <Route exact path='/_cakezone/chefs' element = {<Chefs
         common="common" />} />
-        <Route exact path='/cakezone/testimonial' element = {<Testimonial deviceType = {deviceType}
+        <Route exact path='/_cakezone/testimonial' element = {<Testimonial deviceType = {deviceType}
         common="common"/>}/>
-        <Route exact path='/cakezone/contact' element = {<Contact
+        <Route exact path='/_cakezone/contact' element = {<Contact
         common="common" />}/>
       </Routes>
       <Footer />

@@ -65,7 +65,7 @@ const Menu = ({ specialpackPosition,common }) => {
   }
   return (
     <>
-    {common === "common" && <Commonheading heading = "MENU & PRICING" link = "MENU & PRICING" url = "/menu"/>}
+    {common === "common" && <Commonheading heading = "MENU & PRICING" link = "MENU & PRICING" url = "/_cakezone/menu"/>}
     <div className='menu-div'>
       <h3 className='crispy text-center'>Menu & Pricing</h3>
       <h1 className='home-head text-center about-head'>EXPLORE OUR CAKES</h1>

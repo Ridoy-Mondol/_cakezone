@@ -997,6 +997,7 @@
 
   .home-div {
     height: 73vh;
+    height: 55vh;
     width: 100%;
     margin-top: 5.75rem;
   }
@@ -1119,15 +1120,18 @@
     margin-top: 6rem;
   }
   .menu-inner {
-    gap: 1rem;
-    width: 19.2rem;
+    gap: 0;
+    width: 94%;
     height: 4.25rem;
     border: 1.5px solid #FFFFFF;
   }
   .menu-outer {
-      width: 20.5rem;
+      width: 90vw;
       height: 5.5rem;
       margin: 3rem 0;
+  }
+  .menu-btn {
+    width: 33.33%;
   }
   .cake-inner {
     width: 97%;
@@ -1728,6 +1732,37 @@
 
 /* very small devices */
 @media (max-width: 340px) {
+
+  /* menu */
+  .menu-btn {
+    font-size: 0.8rem;
+  }
+  /* cake */
+  .money {
+    font-size: 1.1rem;
+  }
+
+  /* service */
+  .service-card-outer{
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .service-card-inner{
+    width: 94%;
+    
+  }
+
+  /* specialpack */
+  .special-div {
+    height: 33.75rem;
+  }
+  .special-btn {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  /* testimonial */
   .testimoni-inner {
     height: 16rem;
   }

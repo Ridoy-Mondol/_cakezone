@@ -56,7 +56,7 @@ const Contact = ({common}) => {
   }
   return (
     <>
-    {common==="common" && <Commonheading heading = "CONTACT US" link = "CONTACT" url = "/contact"/>}
+    {common==="common" && <Commonheading heading = "CONTACT US" link = "CONTACT" url = "/_cakezone/contact"/>}
 
     <div className='service-div contact-div'>
       
