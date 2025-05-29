@@ -6,7 +6,7 @@ const Navbar1 = () => {
   return (
     <div className='navbar1'>
        <div className='nav-flex'>
-       <i class="fa-solid fa-envelope email-icon"></i>
+       <i className="fa-solid fa-envelope email-icon"></i>
        <div>
         <h5 className='nav1-head'>
         EMAIL US
@@ -20,15 +20,15 @@ const Navbar1 = () => {
        <div className='logo-outer nav-logo-outer'>
        <div className='logo-inner nav-logo-inner'>
         <div className='logo-icon-flex'>
-       <i class="fa fa-birthday-cake cake-icon"></i>
+       <i className="fa fa-birthday-cake cake-icon"></i>
        <span className='logo'>CAKEZONE</span>
        </div>
-       <i class={`cake-icon sidebar-icon ${showNavLink ? "fa-solid fa-xmark" : "fas fa-bars"}`} onClick={showNavItem}></i>
+       <i className={`cake-icon sidebar-icon ${showNavLink ? "fa-solid fa-xmark" : "fas fa-bars"}`} onClick={showNavItem}></i>
        </div>
        </div>
 
        <div className='nav-flex'>
-       <i class="fa-solid fa-mobile-screen email-icon"></i>
+       <i className="fa-solid fa-mobile-screen email-icon"></i>
        <div>
         <h5 className='nav1-head'>
         CALL US

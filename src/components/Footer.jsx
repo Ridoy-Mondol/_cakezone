@@ -126,7 +126,7 @@ const Footer = () => {
         </div>
 
         <div className="d-flex justify-content-center footer-end">
-          <span>&copy; 2023 CAKEZONE All Rights Reserved By Ridoy Mondol </span>
+          <span>&copy; {new Date().getFullYear()} CAKEZONE All Rights Reserved By Md. Ahatashamul Islam Mondol </span>
         </div>
 
         </>

@@ -31,7 +31,7 @@ const Navbar2 = () => {
       <span onClick={showDropdownPages}>
       <span activeClassName="active"  className="nav-link">
       PAGES
-      <i class="fas fa-caret-down ms-2"></i>
+      <i className="fas fa-caret-down ms-2"></i>
       </span>
       <span className={show ? 'dropdown-pages' : "hide"}>
            <NavLink activeClassName="active" className="dropdown-link" exact to="/_cakezone/service">

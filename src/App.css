@@ -905,7 +905,7 @@
 
 /* responsibe code for moble */
 
-@media (max-width : 767px) {
+@media all and (max-width : 767px) {
   body {
     overflow-x: hidden;
   }
